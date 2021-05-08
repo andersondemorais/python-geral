@@ -56,11 +56,11 @@ def main():
 
     """ CONVERT +1 img """
     # img files to be converted / arquivos img a ser convertidos em um unico pdf
-    src1 = "~/img1.jpg"
-    src2 = "~/img2.jpg"
+    src1 = home + "/img1.jpg"
+    src2 = home + "/img2.jpg"
     srcs = [src1, src2]
     # name of the pdf file that'll be generated / nome arquivo pdf que sera gerado
-    dst = "~/pdf.pdf"
+    dst = home + "/pdf.pdf"
 
     convert_many_img(srcs, dst)
 
