@@ -10,7 +10,7 @@ Enviando email com smtplib and EmailMessage
 __author__ = "Anderson Morais"
 __copyright__ = "Copyright 2020"
 __email__ = ""
-__date__ = "2020-11-19"
+__date__ = "19-nov-2020"
 __version__ = "0.1"
 __status__ = ""
 
