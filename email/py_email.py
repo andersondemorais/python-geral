@@ -49,9 +49,9 @@ def send(receiver):
 
 def main():
     receivers = (
-        ("name_dest1", "dest_1@gmail.com"),
-        ("name_dest2", "dest_2@gmail.com"),
-        ("name_dest3", "dest_3@gmail.com"),
+        ("name_dest1", "dest_1@email.com"),
+        ("name_dest2", "dest_2@email.com"),
+        ("name_dest3", "dest_3@email.com"),
     )
     for receiver in receivers:
         send(receiver)
