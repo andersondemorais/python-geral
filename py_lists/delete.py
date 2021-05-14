@@ -6,7 +6,7 @@ Deleting lists/elements in Python
 """
 
 __author__ = "Anderson Morais"
-__copyright__ = "Copyright 2020"
+__copyright__ = "Copyright 2021"
 __email__ = ""
 __date__ = "14-may-2021"
 __version__ = ""
