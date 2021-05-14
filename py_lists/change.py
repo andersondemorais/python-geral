@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
 # Using Python 3.x
 
-"""
-Add and change elements
-"""
-
 __author__ = "Anderson Morais"
 __copyright__ = "Copyright 2020"
 __email__ = ""
 __date__ = "13-may-2021"
 __version__ = ""
 __status__ = ""
+
+"""
+Add and change elements
+"""
 
 
 from contextlib import suppress

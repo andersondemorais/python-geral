@@ -1,6 +1,13 @@
 # -*- coding: utf-8 -*-
 # Using Python 3.x
 
+__author__ = "Anderson Morais"
+__copyright__ = "Copyright 2021"
+__email__ = ""
+__date__ = "14-may-2021"
+__version__ = ""
+__status__ = ""
+
 """
 A few examples of Python list methods:
 .append(element), 
@@ -17,12 +24,6 @@ A few examples of Python list methods:
 .sort() 
 """
 
-__author__ = "Anderson Morais"
-__copyright__ = "Copyright 2021"
-__email__ = ""
-__date__ = "14-may-2021"
-__version__ = ""
-__status__ = ""
 
 import copy
 from contextlib import suppress

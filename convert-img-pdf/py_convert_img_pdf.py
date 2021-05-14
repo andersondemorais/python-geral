@@ -1,14 +1,15 @@
 # -*- coding: utf-8 -*-
 # Using Python 3.x
 
-""" Convert img - pdf  """
-
 __author__ = "Anderson Morais"
 __copyright__ = "Copyright 2020"
 __email__ = ""
 __date__ = "01-dez-2020"
 __version__ = "0.1"
 __status__ = ""
+
+""" Convert img - pdf  """
+
 
 from PIL import Image
 from pathlib import Path

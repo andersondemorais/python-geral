@@ -1,18 +1,20 @@
 # -*- coding: utf-8 -*-
 # Using Python 3.x
 
-"""
-Sending email with smtplib and EmailMessage
-Enviando email com smtplib and EmailMessage
-** Usado com Gmail
-** Liberar - apps menos seguros - para acessar a conta
-"""
 __author__ = "Anderson Morais"
 __copyright__ = "Copyright 2020"
 __email__ = ""
 __date__ = "19-nov-2020"
 __version__ = "0.1"
 __status__ = ""
+
+"""
+Sending email with smtplib and EmailMessage
+Enviando email com smtplib and EmailMessage
+** Usado com Gmail
+** Liberar - apps menos seguros - para acessar a conta
+"""
+
 
 import smtplib as smail
 from email.message import EmailMessage

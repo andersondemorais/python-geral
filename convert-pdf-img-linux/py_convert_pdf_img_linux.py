@@ -1,17 +1,18 @@
 # -*- coding: utf-8 -*-
 # Using Python 3.x
 
-""" 
-Convert pdf - img 
-** Apenas para PDFs com 1 página / only for PDF with 1 page
-"""
-
 __author__ = "Anderson Morais"
 __copyright__ = "Copyright 2020"
 __email__ = ""
 __date__ = "15-nov-2020"
 __version__ = "0.1"
 __status__ = ""
+
+""" 
+Convert pdf - img 
+** Apenas para PDFs com 1 página / only for PDF with 1 page
+"""
+
 
 import os
 import re

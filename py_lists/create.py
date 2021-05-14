@@ -1,6 +1,13 @@
 # -*- coding: utf-8 -*-
 # Using Python 3.x
 
+__author__ = "Anderson Morais"
+__copyright__ = "Copyright 2020"
+__email__ = ""
+__date__ = "13-may-2021"
+__version__ = ""
+__status__ = ""
+
 """
 Creating lists in Python
 LIST: mutable, sequence, indexed, subscriptable, multiple(allows equal elem - duplicate)
@@ -8,12 +15,6 @@ variable = [elem1, elem2, elem3, ..., elemN]
 constructor: variable = list((elem1, elem2, elem3, ..., elemN))
 """
 
-__author__ = "Anderson Morais"
-__copyright__ = "Copyright 2020"
-__email__ = ""
-__date__ = "13-may-2021"
-__version__ = ""
-__status__ = ""
 
 from contextlib import suppress
 

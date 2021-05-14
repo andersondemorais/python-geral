@@ -1,16 +1,17 @@
 # -*- coding: utf-8 -*-
 # Using Python 3.x
 
-"""
-Deleting lists/elements in Python
-"""
-
 __author__ = "Anderson Morais"
 __copyright__ = "Copyright 2021"
 __email__ = ""
 __date__ = "14-may-2021"
 __version__ = ""
 __status__ = ""
+
+"""
+Deleting lists/elements in Python
+"""
+
 
 from contextlib import suppress
 
