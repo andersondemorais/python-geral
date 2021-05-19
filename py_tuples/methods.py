@@ -79,3 +79,7 @@ print(my_tuple_of_chars_zip)
 """ SUM """
 # output: 6
 print(sum(my_tuple_2))
+
+""" JOIN """
+# output: a\b\c
+print('\\'.join(my_tuple_1))
