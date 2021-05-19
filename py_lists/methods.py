@@ -22,6 +22,8 @@ A few examples of Python list methods:
 .remove(element), 
 .reverse(), 
 .sort() 
+***
+.join()
 """
 
 
@@ -58,6 +60,7 @@ my_list_of_chars.insert(6, 'fff')
 # output: ['a', 'b', 'c', 'd', 'e', 'f', 'fff', 'f', 'f', 'g', 'z', 'x', 'y']
 print(my_list_of_chars)
 
+""" method pop - LIFO """
 my_list_of_chars.pop(7)
 # output: ['a', 'b', 'c', 'd', 'e', 'f', 'fff', 'f', 'g', 'z', 'x', 'y']
 print(my_list_of_chars)
@@ -131,3 +134,25 @@ print(my_list_of_integers_copy1)
 print(my_list_of_integers_copy2)
 # output: [1, 2, 333, 4, 5, 6, 7, 8]
 print(my_list_of_integers_reference)
+
+""" METHDS FOR USE WITH LISTS """
+
+""" JOIN """
+my_list_of_chars = ['Hi', 'Python', '!!!']
+# join elements using string as separator
+# output: Hi_Python_!!!
+print('_'.join(my_list_of_chars))
+
+""" SUM """
+my_sum_elements = sum(my_list_of_integers)
+# output: 366
+print(my_sum_elements)
+my_sum_pair_elements = [
+    sum(pair)
+    for pair in zip(
+        [1, 2, 3],
+        [1, 2, 3],
+    )
+]
+# output: [2, 4, 6]
+print(my_sum_pair_elements)

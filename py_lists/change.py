@@ -78,3 +78,8 @@ print(my_list_of_chars)
 my_list_combined = my_list_of_chars + my_list_of_chars2
 # output: ['a', 'b', 'c', 'd', 'e', 1, 2, 3, 4]
 print(my_list_combined)
+
+# split a string into a list
+my_list_of_chars = list('Python')
+# otput: ['P', 'y', 't', 'h', 'o', 'n']
+print(my_list_of_chars)

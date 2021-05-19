@@ -80,3 +80,9 @@ print(my_list_of_chars[-5:])
 print(my_list_of_chars[1:])
 # elements beginning to end
 print(my_list_of_chars[:])
+
+""" STEPS """
+# : is called slicing and has the format [start:end:step]
+# elements beginning to end - only every 2-nd element
+# output: ['a', 'c', 'f']
+print(my_list_of_chars[::2])
