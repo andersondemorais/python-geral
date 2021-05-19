@@ -2,7 +2,7 @@
 # Using Python 3.x
 
 __author__ = "Anderson Morais"
-__copyright__ = "Copyright 2020"
+__copyright__ = "Copyright 2021"
 __email__ = ""
 __date__ = "13-may-2021"
 __version__ = ""

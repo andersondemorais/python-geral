@@ -24,6 +24,7 @@ A few examples of Python list methods:
 .sort() 
 ***
 .join()
+sum()
 """
 
 
