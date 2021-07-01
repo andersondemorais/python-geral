@@ -2,8 +2,6 @@
 # Using Python 3.x
 
 __author__ = "Anderson Morais"
-__copyright__ = "Copyright 2021"
-__email__ = ""
 __date__ = "13-may-2021"
 __version__ = ""
 __status__ = ""

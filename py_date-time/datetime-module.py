@@ -2,8 +2,6 @@
 # Using Python 3.x
 
 __author__ = "Anderson Morais"
-__copyright__ = "Copyright 2021"
-__email__ = ""
 __date__ = "30-jun-2021"
 __version__ = ""
 __status__ = ""
@@ -26,27 +24,17 @@ from contextlib import suppress
 CONSTANTS:
 datetime.MINYEAR
 datetime.MAXYEAR
-Types:
+"""
+# output: Max year: 9999 - Min year: 1
+print(f'Max year: {datetime.MAXYEAR} - Min year: {datetime.MINYEAR}')
+
+""" TYPES """
+
+"""
 class datetime.date
     An idealized naive date, assuming the current Gregorian calendar always was, and always will be, in effect. 
     Attributes: year, month, and day.
-class datetime.time
-    An idealized time, independent of any particular day, assuming that every day has exactly 24*60*60 seconds. 
-    (There is no notion of “leap seconds” here.) 
-    Attributes: hour, minute, second, microsecond, and tzinfo.
-class datetime.datetime
-    A combination of a date and a time. Attributes: year, month, day, hour, minute, second, microsecond, and tzinfo.
-class datetime.timedelta
-    A duration expressing the difference between two date, time, or datetime instances to microsecond resolution.
-class datetime.tzinfo
-    An abstract base class for time zone information objects. 
-    These are used by the datetime and time classes to provide a customizable notion of time adjustment 
-    (for example, to account for time zone and/or daylight saving time).
-class datetime.timezone
-    A class that implements the tzinfo abstract base class as a fixed offset from the UTC.
 """
-
-""" DATE """
 tday = datetime.date.today()
 nou = datetime.datetime.now()
 bck_td_fut = datetime.date(2015, 10, 21)
@@ -85,7 +73,12 @@ print(tday.strftime('%y/%b/%d'))
 # output: Wednesday 21/Jun/30
 print(tday.strftime('%A %y/%b/%d'))
 
-""" TIME """
+"""
+class datetime.time
+    An idealized time, independent of any particular day, assuming that every day has exactly 24*60*60 seconds. 
+    (There is no notion of “leap seconds” here.) 
+    Attributes: hour, minute, second, microsecond, and tzinfo.
+"""
 # time(hour = 0, minute = 0, second = 0)
 # output: 00:00:00
 print(datetime.time.min)
@@ -116,7 +109,11 @@ my_time1 = datetime.time(2, 42, 59, 1036)
 # output: 02:42:59.001036
 print(my_time1)
 
-""" DATETIME """
+
+"""
+class datetime.datetime
+    A combination of a date and a time. Attributes: year, month, day, hour, minute, second, microsecond, and tzinfo.
+"""
 # datetime(year, month, day, hour, minute, second, microsecond)
 my_datetime = datetime.datetime(2020, 4, 15)
 # output: 2020-04-15 00:00:00
@@ -127,7 +124,11 @@ my_datetime1 = datetime.datetime(1990, 12, 4)
 # output: 10725 days, 0:00:00
 print(my_datetime - my_datetime1)
 
-""" TIMEDELTA """
+
+"""
+class datetime.timedelta
+    A duration expressing the difference between two date, time, or datetime instances to microsecond resolution.
+"""
 my_timedelta = datetime.timedelta(days=10, hours=3, minutes=29)
 my_timedelta1 = datetime.timedelta(days=2, hours=12, minutes=38)
 
@@ -137,9 +138,15 @@ print(my_timedelta - my_timedelta1)
 # output: 876540.0
 print(my_timedelta.total_seconds())
 
-""" TZINFO """
 
-""" TIMEZONE """
+"""
+class datetime.tzinfo
+    An abstract base class for time zone information objects. 
+    These are used by the datetime and time classes to provide a customizable notion of time adjustment 
+    (for example, to account for time zone and/or daylight saving time).
+class datetime.timezone
+    A class that implements the tzinfo abstract base class as a fixed offset from the UTC.
+"""
 my_timezone = datetime.timezone(datetime.timedelta(hours=-3, minutes=-30))
 # output: UTC-03:30
 print(my_timezone)
