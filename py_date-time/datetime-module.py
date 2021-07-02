@@ -124,6 +124,11 @@ my_datetime1 = datetime.datetime(1990, 12, 4)
 # output: 10725 days, 0:00:00
 print(my_datetime - my_datetime1)
 
+# convert string to datetime
+date_str = '01/07/2021'
+date_str_datetime = datetime.datetime.strptime(date_str, '%d/%m/%Y')
+print(date_str_datetime)
+
 
 """
 class datetime.timedelta
@@ -137,7 +142,13 @@ my_timedelta1 = datetime.timedelta(days=2, hours=12, minutes=38)
 print(my_timedelta - my_timedelta1)
 # output: 876540.0
 print(my_timedelta.total_seconds())
-
+# add time
+my_datetime_fut = nou + my_timedelta
+# output: 2021-07-12 23:43:10.092091
+print(my_datetime_fut)
+my_datetime_past = nou - my_timedelta
+# output: 2021-06-22 16:45:10.092091
+print(my_datetime_past)
 
 """
 class datetime.tzinfo
